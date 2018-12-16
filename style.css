@@ -1,0 +1,36 @@
+body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	background-color: #ff851b;
+	color: #333333;
+  cursor: url(https://upload.wikimedia.org/wikipedia/commons/5/5b/Mouse_cartoon.svg), pointer;
+  height: 100%;
+
+}
+
+html, body {
+  position: fixed;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  vertical-align: bottom;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+nav a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px 0 5px;
+}
